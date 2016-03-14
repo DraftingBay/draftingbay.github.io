@@ -319,18 +319,19 @@ header {
     font-size: 2.4em;
     line-height: 0.8;
     letter-spacing: 0.05em;
+    margin-right: -0.05em;
     font-weight: bold;
     font-family: Arial, sans-serif;
     padding: 0; }
   header h2:first-child {
-    letter-spacing: 0.13em;
-    margin-right: -0.13em;
+    letter-spacing: 0.125em;
+    margin-right: -0.125em;
     margin-bottom: 0.7em; }
   header nav {
     margin-top: 1em; }
     header nav a {
       font-size: 1.2em;
-      margin-left: 1.7em; }
+      margin-left: 1.72em; }
 
 footer {
   height: 200px;
@@ -349,7 +350,8 @@ footer {
   z-index: 0;
   height: 100%;
   width: 100%;
-  position: relative; }
+  position: relative;
+  background-color: #004056; }
   #home #slideshow {
     height: 100%;
     width: 100%; }
@@ -372,17 +374,17 @@ footer {
       -o-transform: translateX(-50%);
       transform: translateX(-50%); }
       #home #slideshow .slideshow-selector-container .active {
-        background-color: white !important; }
+        background-color: #35dfbd !important; }
       #home #slideshow .slideshow-selector-container .slideshow-selector {
         height: 1em;
         width: 1em;
-        background-color: black;
+        background-color: #004056;
         cursor: pointer;
-        border-radius: 50%;
+        border-radius: 0%;
         display: inline-block;
         margin: 1em; }
         #home #slideshow .slideshow-selector-container .slideshow-selector:hover {
-          background-color: white; }
+          background-color: #35dfbd; }
 
 .img {
   background-position: center;
@@ -459,10 +461,6 @@ form {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    form .input-wrap:first-of-type {
-      padding-right: 0.4em; }
-    form .input-wrap:nth-of-type(2) {
-      padding-left: 0.4em; }
   form input {
     width: 100%;
     border: medium none;
