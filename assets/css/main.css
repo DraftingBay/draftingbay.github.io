@@ -428,7 +428,7 @@ footer {
       #content #about .wrap .right, #content #contact .wrap .right {
         text-align: left; }
         #content #about .wrap .right img, #content #contact .wrap .right img {
-          border-radius: 50%;
+          border-radius: 0%;
           width: 15em;
           display: inline-block;
           margin-bottom: 3em; }
